@@ -1,0 +1,34 @@
+ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li a:hover {
+	text-decoration: none;
+	color: #5a8082;
+}
+
+.row .card-img {
+	background-color: #fafafa02;
+	border: 0px;
+	/* padding-left: 20px; */
+	transition: transform 1s;
+}
+
+.row .card-img a {
+	text-decoration: none;
+	color: black;
+}
+
+.row .card-img:hover {
+	transform: translateY(-10px);
+}
+
+.row .card-img ul li {
+	background-color: #fafafa02;
+	border: 0px;
+}
+
+.row .col-12 .card .card-header .card-tabs {
+	color: black;
+}

@@ -1,0 +1,278 @@
+body {
+	color: rgb(3, 3, 3);
+	background-color: #ececec;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	font-family: lucida bright;
+	/* font-family: Helvetica; */
+}
+
+/* Navbar */
+.dropdown-menu {
+	border-radius: 5px;
+	background-color: #0086d3ce;
+	color: black;
+	border: 0px solid;
+}
+
+.dropdown-menu a:hover {
+	border-radius: 5px;
+	background-color: #0084D3;
+	color: rgb(255, 255, 255);
+	border: 0px solid;
+}
+
+.navbar .navbar-brand {
+	color: rgb(35, 51, 35);
+}
+
+.navbar .nav-link {
+	color: rgb(35, 51, 35);
+}
+
+.navbar .nav-link:hover {
+	color: #3c4f74;
+}
+
+.dropdown-menu a .dropdown-item {
+	font-weight: bold;
+}
+
+.nav-item {
+	padding-left: 2rem;
+}
+
+/* Menu */
+.jumbotron {
+	padding: 15rem 30px 0px 30px;
+	background: url(../img/giant.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/* background-color: #b8fced; */
+	color: wheat;
+	width: 100% auto;
+	height: 650px;
+}
+
+#gallery {
+	background: linear-gradient(#b8fced, #ffe75f);
+}
+
+#about {
+	background: linear-gradient(#ffe75f, #8ae0fafd);
+}
+
+section {
+	padding-top: 8rem;
+}
+
+.carousel-item img {
+	width: 100px auto;
+	height: 0px;
+}
+
+.card img {
+	padding-top: 20px;
+	width: 200px auto;
+	height: 200px;
+}
+
+/* Index card Komputer css */
+.row .card-img {
+	background-color: #fafafa00;
+	border: 0px;
+	/* padding-left: 20px; */
+	transition: transform 1s;
+}
+
+.row .card {
+	background-color: #fafafa00;
+	border: 0px;
+	transition: transform 1s;
+}
+
+.row .card-img a {
+	text-decoration: none;
+	color: black;
+}
+
+.row .card-img:hover {
+	transform: translateY(-10px);
+}
+
+.row .card-img ul li {
+	background-color: #fafafa00;
+	border: 0px;
+}
+
+/* Account Page Login */
+.account-page {
+	padding: 5rem 0;
+	background: #ececec;
+	/* radial-gradient(#fff, #ffd6d6); */
+}
+
+.form-container-login {
+	background: linear-gradient(#fcf4b1, #ce8888);
+	width: auto;
+	/* height: 500px; */
+	position: relative;
+	text-align: center;
+	/* padding: 20px 0; */
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0, 1);
+	overflow: hidden;
+	border: 0 solid;
+	border-radius: 10px;
+}
+
+.form-container-login .form-container-regis span {
+	font-weight: bold;
+	padding: 0 10px;
+	color: #555;
+	cursor: pointer;
+	/* width: 100px; */
+	display: inline-block;
+}
+
+.form-btn {
+	display: inline-block;
+}
+
+#LoginForm input {
+	width: 300px;
+	height: 40px;
+	margin: 10px 0;
+	padding: 10px 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+#LoginForm a .Butuh {
+	padding-top: 3rem;
+}
+
+.RegForm {
+	padding-top: 1rem;
+}
+
+.RegForm .form-group input {
+	width: 500px;
+	height: 40px;
+	margin: 10px 0;
+	padding: 15px 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.RegForm .form-group-pass input {
+	width: 250px;
+	height: 40px;
+	margin: 10px 0;
+	padding: 15px 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+/* .RegForm .row input {
+	width: 200px;
+	height: 40px;
+	margin: 10px 40px 0px 0px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+} */
+
+form .btn-primary-ni {
+	background-color: rgb(0, 0, 0);
+	width: 100px;
+	border: none;
+	cursor: pointer;
+	margin: 40px 0;
+}
+
+form .btn-primary-ni:hover {
+	background-color: white;
+	color: black;
+}
+
+form .btn-primary-ni:focus {
+	outline: none;
+}
+
+form a {
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+
+form a:hover {
+	color: white
+}
+
+/* Account Page Regis */
+
+.row-regis {
+	margin-top: 5rem;
+}
+
+.form-container-regis {
+	background: linear-gradient(to right, #3f3e3e, #193b33);
+	/* width: 700px;
+	height: 500px; */
+	position: relative;
+	text-align: center;
+	border-radius: 40px;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0, 1);
+	overflow: hidden;
+}
+
+footer {
+	background-color: #8ae0fafd;
+}
+
+nav ul {
+	list-style: none;
+	background: none;
+	border: none;
+}
+
+nav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav ul li {
+	text-decoration: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul ul li {
+	float: none;
+}
+
+nav ul ul {
+	position: absolute;
+	display: none;
+}
+
+nav ul li:hover>ul {
+	display: block;
+}
+
+nav ul ul ul {
+	position: absolute;
+}
